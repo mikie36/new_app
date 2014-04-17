@@ -1,4 +1,10 @@
 NewApp::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/help"
+  get "static_pages/git"
+  get "static_pages/push"
+  get "static_pages/origin"
+  get "static_pages/master"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
